@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './Header';
 import CalendarGrid from './CalendarGrid';
 import { events } from './events';
+import { timeBlocks } from './timeBlocks';
 import dayjs from 'dayjs';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
   const nextMonth = () => setDate(date.add(1, 'month'));
   const prevMonth = () => setDate(date.subtract(1, 'month'));
+  const goToToday = () => setDate(dayjs());
 
   return (
     <div className="max-w-5xl mx-auto mt-10">
@@ -17,8 +19,9 @@ function App() {
         year={date.format('YYYY')}
         onPrev={prevMonth}
         onNext={nextMonth}
+        onToday={goToToday}
       />
-      <CalendarGrid currentDate={date} events={events} />
+      <CalendarGrid currentDate={date} events={events} timeBlocks={timeBlocks} />
     </div>
   );
 }

@@ -1,23 +1,28 @@
 export const events = [
-  {
-    id: 1,
-    title: "Team Meeting",
-    date: "2025-06-23",
-    time: "10:00",
-    duration: "1h"
-  },
-  {
-    id: 2,
-    title: "Project Review",
-    date: "2025-06-23",
-    time: "10:30",
-    duration: "30m"
-  },
-  {
-    id: 3,
-    title: "Doctor Appointment",
-    date: "2025-06-25",
-    time: "15:00",
-    duration: "1h"
-  }
+  { title: "New Year's Day", date: "2025-01-01",date:"2026-01-01", time: "All Day", duration: "1 day", type: "holiday" },
+  { title: "Pongal", date: "2025-01-14", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Makar Sankranti", date: "2025-01-14", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Republic Day", date: "2025-01-26", time: "All Day", duration: "1 day", type: "holiday" },
+  { title: "Maha Shivaratri", date: "2025-02-26", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Holi", date: "2025-03-14", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Ram Navami", date: "2025-04-06", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Good Friday", date: "2025-04-18", time: "All Day", duration: "1 day", type: "holiday" },
+  { title: "Eid al-Fitr", date: "2025-03-31", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Ambedkar Jayanti", date: "2025-04-14", time: "All Day", duration: "1 day", type: "holiday" },
+  { title: "May Day", date: "2025-05-01", time: "All Day", duration: "1 day", type: "holiday" },
+  { title: "Buddha Purnima", date: "2025-05-12", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Bakrid (Eid al-Adha)", date: "2025-06-07", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Muharram", date: "2025-07-06", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Independence Day", date: "2025-08-15", time: "All Day", duration: "1 day", type: "holiday" },
+  { title: "Raksha Bandhan", date: "2025-08-09", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Janmashtami", date: "2025-08-16", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Ganesh Chaturthi", date: "2025-08-27", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Gandhi Jayanti", date: "2025-10-02", time: "All Day", duration: "1 day", type: "holiday" },
+  { title: "Dussehra (Vijayadashami)", date: "2025-10-02", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Karwa Chauth", date: "2025-10-30", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Diwali", date: "2025-10-20", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Govardhan Puja", date: "2025-10-21", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Bhai Dooj", date: "2025-10-22", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Guru Nanak Jayanti", date: "2025-11-05", time: "All Day", duration: "1 day", type: "festival" },
+  { title: "Christmas Day", date: "2025-12-25",date:"2026-12-25", time: "All Day", duration: "1 day", type: "holiday" }
 ];
